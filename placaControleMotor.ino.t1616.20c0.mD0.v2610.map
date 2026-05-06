@@ -1,0 +1,209 @@
+
+
+Symbols from C:\Users\Julio\AppData\Local\Temp\arduino_build_359387/placaControleMotor.ino.elf:
+
+Name                  Value   Class        Type         Size     Line  Section
+
+__heap_end          |00000000|   W  |            NOTYPE|        |     |*ABS*
+__TEXT_REGION_ORIGIN__|00000000|   W  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__vector_default    |00000000|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:61
+__vectors           |00000000|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:61
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__FUSE_REGION_LENGTH__|0000000a|   A  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__ctors_start       |0000007c|   T  |            NOTYPE|        |     |.text
+__trampolines_end   |0000007c|   T  |            NOTYPE|        |     |.text
+__trampolines_start |0000007c|   T  |            NOTYPE|        |     |.text
+__ctors_end         |0000007e|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:230
+__dtors_end         |0000007e|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:230
+__dtors_start       |0000007e|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:230
+__init              |0000007e|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:230
+_initThreeStuff()   |0000008a|   T  |              FUNC|00000018|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/main.cpp:149
+__do_copy_data      |000000a2|   T  |            NOTYPE|00000016|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2409
+__do_clear_bss      |000000b8|   T  |            NOTYPE|00000010|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+.do_clear_bss_loop  |000000c0|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+.do_clear_bss_start |000000c2|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+__do_global_ctors   |000000c8|   T  |            NOTYPE|00000016|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2466
+__bad_interrupt     |000000e4|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_1          |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_10         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_11         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_12         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_13         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_14         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_16         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_17         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_18         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_19         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_2          |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_20         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_21         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_22         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_23         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_24         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_25         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_26         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_3          |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_30         |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_5          |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_6          |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_7          |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_8          |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_9          |000000e4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+Print::write(unsigned char const*, unsigned int)|000000e6|   t  |              FUNC|0000005a|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore\api/Print.cpp:29
+__EEPROM_REGION_LENGTH__|00000100|   A  |            NOTYPE|        |     |*ABS*
+HardwareSerial::availableForWrite()|00000140|   t  |              FUNC|0000001e|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:718
+HardwareSerial::read()|0000015e|   t  |              FUNC|00000028|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:702
+HardwareSerial::peek()|00000186|   t  |              FUNC|0000001c|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:694
+HardwareSerial::available()|000001a2|   t  |              FUNC|00000018|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:690
+HardwareSerial::_poll_tx_data_empty()|000001ba|   t  |              FUNC|0000003e|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:423
+_poll_dre_done      |000001f6|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:477
+HardwareSerial::write(unsigned char)|000001f8|   t  |              FUNC|00000098|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:758
+HardwareSerial::flush()|00000290|   t  |              FUNC|00000028|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:727
+micros              |000002b8|   t  |              FUNC|00000078|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring.c:499
+delay               |00000330|   t  |              FUNC|00000054|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring.c:961
+millis              |00000384|   t  |              FUNC|00000018|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring.c:436
+PID::Clear() [clone .constprop.8]|0000039c|   t  |              FUNC|00000036|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring.c:497
+long& EEPROMClass::get<long>(unsigned char, long&) [clone .isra.3]|000003d2|   t  |              FUNC|0000001e|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\libraries\EEPROM\src/EEPROM.h:252
+float& EEPROMClass::get<float>(unsigned char, float&) [clone .isra.2]|000003f0|   t  |              FUNC|0000001e|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\libraries\EEPROM\src/EEPROM.h:252
+__LOCK_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+__SIGNATURE_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+__USER_SIGNATURE_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+carregarCalibracao()|0000040e|   t  |              FUNC|0000025c|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\libraries\EEPROM\src/EEPROM.h:259
+desabilitarTX()     |0000066a|   t  |              FUNC|00000012|     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:356
+habilitarTX()       |0000067c|   t  |              FUNC|00000012|     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:146
+calcularCRC(unsigned char const*, unsigned char)|0000068e|   t  |              FUNC|00000014|     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:141
+enviarResposta()    |000006a2|   t  |              FUNC|0000007a|     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:132
+EERef::operator=(unsigned char)|0000071c|   t  |              FUNC|00000024|     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:425
+float const& EEPROMClass::put<float>(unsigned char, float const&) [clone .isra.1]|00000740|   t  |              FUNC|0000005e|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\libraries\EEPROM\src/EEPROM.h:261
+long const& EEPROMClass::put<long>(unsigned char, long const&) [clone .isra.0]|0000079e|   t  |              FUNC|0000005e|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\libraries\EEPROM\src/EEPROM.h:261
+digitalWrite        |000007fc|   t  |              FUNC|00000118|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring_digital.c:240
+__DATA_REGION_LENGTH__|00000800|   A  |            NOTYPE|        |     |*ABS*
+pararMotor()        |00000914|   t  |              FUNC|0000000c|     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:182
+pinMode             |00000920|   t  |              FUNC|0000004a|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring_digital.c:41
+analogWrite         |0000096a|   t  |              FUNC|00000146|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring_analog.c:1105
+setMotorPWMSpeed(int)|00000ab0|   t  |              FUNC|00000058|     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:187
+setMotorSpeed(signed char)|00000b08|   t  |              FUNC|00000060|     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:202
+__vector_28         |00000b68|   T  |              FUNC|0000000c|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART0.cpp:113
+__vector_27         |00000b74|   T  |              FUNC|0000000c|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART0.cpp:90
+__vector_29         |00000b80|   T  |              FUNC|0000000a|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART0.cpp:54
+_do_dre             |00000b8a|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:384
+_do_dre()           |00000b8a|   T  |              FUNC|0000005c|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:301
+_poll_dre           |00000b9a|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:384
+_done_dre_irq       |00000bc8|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:384
+_do_rxc             |00000be6|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:384
+_do_rxc()           |00000be6|   T  |              FUNC|0000005a|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:171
+_end_rxc            |00000c24|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:249
+_buff_full_rxc      |00000c3c|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:249
+_do_txc             |00000c40|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:249
+_do_txc()           |00000c40|   T  |              FUNC|00000032|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:88
+_txc_flush_rx       |00000c52|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART.cpp:124
+__vector_15         |00000c72|   T  |              FUNC|0000005e|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring.c:202
+ovf_end             |00000c8e|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring.c:317
+sub4                |00000ca8|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring.c:317
+sub_end             |00000cc2|   t  |            NOTYPE|        |     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring.c:317
+__vector_4          |00000cd0|   T  |              FUNC|0000007c|     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:152
+global constructors keyed to 65535_0_PID_v1.cpp.o.2998|00000d4c|   t  |              FUNC|000001f4|     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:165
+main                |00000f40|   T  |              FUNC|000013d8|     |.text	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/main.cpp:49
+__subsf3            |00002318|   T  |              FUNC|0000000a|     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:700
+__addsf3            |0000231a|   T  |            NOTYPE|        |     |.text	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:703
+__addsf3x           |0000233c|   T  |              FUNC|000000cc|     |.text
+__cmpsf2            |000023e2|   T  |              FUNC|00000008|     |.text
+__eqsf2             |000023e2|   T  |            NOTYPE|        |     |.text
+__lesf2             |000023e2|   T  |            NOTYPE|        |     |.text
+__ltsf2             |000023e2|   T  |            NOTYPE|        |     |.text
+__nesf2             |000023e2|   T  |            NOTYPE|        |     |.text
+__divsf3            |000023ea|   T  |              FUNC|00000004|     |.text
+__divsf3x           |00002404|   T  |              FUNC|000000dc|     |.text
+__divsf3_pse        |00002408|   T  |            NOTYPE|        |     |.text
+__fixsfsi           |000024ba|   T  |              FUNC|0000000a|     |.text
+__fixunssfsi        |000024c4|   T  |              FUNC|00000058|     |.text
+__floatunsisf       |0000251c|   T  |              FUNC|0000007a|     |.text
+__floatsisf         |00002520|   T  |            NOTYPE|        |     |.text
+__fp_cmp            |00002596|   T  |              FUNC|00000048|     |.text
+__fp_inf            |000025de|   T  |              FUNC|0000000c|     |.text
+__fp_nan            |000025ea|   T  |              FUNC|00000006|     |.text
+__fp_pscA           |000025f0|   T  |              FUNC|0000000e|     |.text
+__fp_pscB           |000025fe|   T  |              FUNC|0000000e|     |.text
+__fp_round          |0000260c|   T  |              FUNC|00000022|     |.text
+__fp_split3         |0000262e|   T  |              FUNC|00000044|     |.text
+__fp_splitA         |0000263e|   T  |            NOTYPE|        |     |.text
+__fp_zero           |00002672|   T  |              FUNC|0000000e|     |.text
+__fp_szero          |00002674|   T  |            NOTYPE|        |     |.text
+__gesf2             |00002680|   T  |              FUNC|00000008|     |.text
+__gtsf2             |00002680|   T  |            NOTYPE|        |     |.text
+__mulsf3            |00002688|   T  |              FUNC|00000004|     |.text
+__mulsf3x           |000026a0|   T  |              FUNC|000000d2|     |.text
+__mulsf3_pse        |000026a4|   T  |            NOTYPE|        |     |.text
+__unordsf2          |0000274e|   T  |              FUNC|00000008|     |.text
+__mulsi3            |00002756|   T  |            NOTYPE|0000001e|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:648
+__divmodsi4         |00002774|   T  |            NOTYPE|00000028|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1686
+__divmodsi4_neg2    |0000278c|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1701
+__divmodsi4_exit    |0000279a|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1709
+__negsi2            |0000279c|   T  |            NOTYPE|00000010|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1718
+__usmulhisi3        |000027ac|   T  |            NOTYPE|00000002|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:545
+__usmulhisi3_tail   |000027ae|   T  |            NOTYPE|0000000a|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:551
+__muluhisi3         |000027b8|   T  |            NOTYPE|00000014|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:626
+__udivmodsi4        |000027cc|   T  |            NOTYPE|00000044|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1638
+__udivmodsi4_loop   |000027d8|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1646
+__udivmodsi4_ep     |000027f2|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1660
+__tablejump2__      |00002810|   T  |            NOTYPE|0000000c|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2296
+__umulhisi3         |0000281c|   T  |            NOTYPE|0000001e|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:564
+_exit               |0000283a|   T  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+exit                |0000283a|   W  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+__stop_program      |0000283c|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+_etext              |0000283e|   T  |            NOTYPE|        |     |.text
+__data_load_start   |000028b0|   A  |            NOTYPE|        |     |*ABS*
+__data_load_end     |000028bc|   A  |            NOTYPE|        |     |*ABS*
+__stack             |00003fff|   W  |            NOTYPE|        |     |*ABS*
+__TEXT_REGION_LENGTH__|00004000|   A  |            NOTYPE|        |     |*ABS*
+__RODATA_PM_OFFSET__|00008000|   A  |            NOTYPE|        |     |*ABS*
+tabelaQuadratura    |0000a83e|   r  |            OBJECT|00000010|     |.rodata
+digital_pin_to_timer|0000a84e|   r  |            OBJECT|00000012|     |.rodata	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\variants\txy6/pins_arduino.h:379
+digital_pin_to_bit_position|0000a860|   r  |            OBJECT|00000012|     |.rodata	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\variants\txy6/pins_arduino.h:330
+digital_pin_to_port |0000a872|   r  |            OBJECT|00000012|     |.rodata	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\variants\txy6/pins_arduino.h:305
+digital_pin_to_bit_mask|0000a884|   r  |            OBJECT|00000012|     |.rodata	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\variants\txy6/pins_arduino.h:354
+_usart_pins         |0000a896|   r  |            OBJECT|00000008|     |.rodata
+vtable for HardwareSerial|0000a89e|   r  |            OBJECT|00000012|     |.rodata
+__DATA_REGION_ORIGIN__|00803800|   A  |            NOTYPE|        |     |*ABS*
+__data_start        |00803800|   D  |            NOTYPE|        |     |.data
+DELTA_FREIO_TRAVADO |00803800|   d  |            OBJECT|00000004|     |.data	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:87
+KD_FREIO_TRAVADO    |00803804|   d  |            OBJECT|00000004|     |.data	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:83
+KP_FREIO_TRAVADO    |00803808|   d  |            OBJECT|00000004|     |.data	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:82
+__bss_start         |0080380c|   B  |            NOTYPE|        |     |.bss
+__data_end          |0080380c|   D  |            NOTYPE|        |     |.data
+_edata              |0080380c|   D  |            NOTYPE|        |     |.data
+timingStruct        |0080380c|   b  |            OBJECT|0000000a|     |.bss	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/wiring.c:189
+estadoEncoderAnterior|00803816|   b  |            OBJECT|00000001|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:104
+deltaFreioCustom    |00803817|   b  |            OBJECT|00000001|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:88
+contadorGiroMaximoAntiHorario|00803818|   b  |            OBJECT|00000004|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:76
+contadorGiroMaximoHorario|0080381c|   b  |            OBJECT|00000004|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:75
+modoAtual           |00803820|   b  |            OBJECT|00000001|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:110
+MEU_ID              |00803821|   b  |            OBJECT|00000001|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:100
+contadorAbsolutoDesejado|00803822|   b  |            OBJECT|00000004|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:93
+erroGiroAnterior    |00803826|   b  |            OBJECT|00000004|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:89
+modoFreio           |0080382a|   b  |            OBJECT|00000001|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:85
+contadorHold        |0080382b|   b  |            OBJECT|00000004|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:86
+encoderAtivo        |0080382f|   b  |            OBJECT|00000001|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:77
+contadorAbsoluto    |00803830|   b  |            OBJECT|00000004|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:106
+encoderCount        |00803834|   b  |            OBJECT|00000002|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:103
+comandoGirarPorAngulo|00803836|   b  |            OBJECT|00000001|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:94
+estadoMotor         |00803837|   b  |            OBJECT|00000001|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:109
+velocidadeMotor     |00803838|   b  |            OBJECT|00000001|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:107
+calibracaoEmAndamento|00803839|   b  |            OBJECT|00000001|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:69
+ultimaComunicacao   |0080383a|   b  |            OBJECT|00000004|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:113
+loop::ultimoByteUs  |0080383e|   b  |            OBJECT|00000004|     |.bss
+loop::buffer        |00803842|   b  |            OBJECT|00000006|     |.bss
+loop::idx           |00803848|   b  |            OBJECT|00000001|     |.bss
+Serial0             |00803849|   b  |            OBJECT|00000091|     |.bss	C:\Users\Julio\AppData\Local\Arduino15\packages\megaTinyCore\hardware\megaavr\2.6.10\cores\megatinycore/UART0.cpp:130
+Setpoint            |008038da|   b  |            OBJECT|00000004|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:72
+Output              |008038de|   b  |            OBJECT|00000004|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:72
+Input               |008038e2|   b  |            OBJECT|00000004|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:72
+myPID               |008038e6|   b  |            OBJECT|0000002f|     |.bss	C:\Users\Julio\Documents\Arduino\placaControleMotor/placaControleMotor.ino:73
+__bss_end           |00803915|   B  |            NOTYPE|        |     |.bss
+_end                |00803915|   N  |            NOTYPE|        |     |.comment
+__eeprom_end        |00810000|   N  |            NOTYPE|        |     |.comment
