@@ -5,6 +5,7 @@
 // ================================================================
 
 #include <EEPROM.h>
+#include <avr/wdt.h>
 #include "PID_v1.h"
 
 // --- Pinos do motor (H-bridge) ---
@@ -94,7 +95,9 @@ int32_t contadorAbsolutoDesejado = 0;
 bool comandoGirarPorAngulo = false;
 
 // --- Timeout de segurança ---
-#define TIMEOUT_COMUNICACAO 5000  // ms sem comando = para motor
+#define TIMEOUT_COMUNICACAO 5000        // ms sem comando = para motor
+#define TIMEOUT_RESET_WATCHDOG 10000    // ms sem comando = deixa o watchdog resetar
+#define WDT_TIMEOUT WDTO_2S              // período do watchdog (2s)
 
 // --- ID ---
 uint8_t MEU_ID;
@@ -214,6 +217,19 @@ void setMotorSpeed(int8_t speed) {
 }
 
 // =================================================================
+// Delay que alimenta o watchdog — necessário para os delay() longos
+// da calibração não serem interrompidos por um reset do WDT
+// =================================================================
+void delayWDT(uint32_t ms) {
+    while (ms > 0) {
+        uint16_t bloco = (ms > 250) ? 250 : ms;
+        delay(bloco);
+        wdt_reset();
+        ms -= bloco;
+    }
+}
+
+// =================================================================
 // Calibração de velocidade máxima
 // =================================================================
 void calibrarVelocidadeMaxima() {
@@ -221,12 +237,12 @@ void calibrarVelocidadeMaxima() {
 
     // --- Sentido HORÁRIO (frente) ---
     setMotorSpeed(100);
-    delay(TEMPO_ESPERA_PARAR);           // Warm-up: motor estabiliza
+    delayWDT(TEMPO_ESPERA_PARAR);        // Warm-up: motor estabiliza
     noInterrupts();
     encoderCount = 0;
     interrupts();
     for (int i = 0; i < QUANTIDADE_REPETICAO_CALIBRACAO; i++) {
-        delay(1000);
+        delayWDT(1000);
     }
     noInterrupts();
     int32_t contagemHorario = encoderCount;
@@ -239,16 +255,16 @@ void calibrarVelocidadeMaxima() {
     contagemHorario = (contagemHorario * 80) / 100;
     EEPROM.put(EEPROM_GIRO_MAX_HORARIO, contagemHorario);
 
-    delay(TEMPO_ESPERA_PARAR);
+    delayWDT(TEMPO_ESPERA_PARAR);
 
     // --- Sentido ANTI-HORÁRIO (trás) ---
     setMotorSpeed(-100);
-    delay(TEMPO_ESPERA_PARAR);           // Warm-up: motor estabiliza
+    delayWDT(TEMPO_ESPERA_PARAR);        // Warm-up: motor estabiliza
     noInterrupts();
     encoderCount = 0;
     interrupts();
     for (int i = 0; i < QUANTIDADE_REPETICAO_CALIBRACAO; i++) {
-        delay(1000);
+        delayWDT(1000);
     }
     noInterrupts();
     int32_t contagemAntiHorario = encoderCount;
@@ -727,8 +743,6 @@ void setup() {
 
     carregarCalibracao();
 
-    myPID.SetOutputLimits(-255, 255);  // Permite output negativo para frear ativamente
-
     Serial.swap(1);        // Pinos alternativos: PA1 (TX) e PA2 (RX)
     Serial.begin(250000);
     desabilitarTX();
@@ -741,6 +755,9 @@ void setup() {
         delay(100);
     }
     ultimaComunicacao = millis();
+
+    wdt_reset();
+    wdt_enable(WDT_TIMEOUT);  // Watchdog de 2s: reseta se o loop travar
 }
 
 // =================================================================
@@ -770,6 +787,13 @@ void loop() {
 
     if (idx > 0 && (micros() - ultimoByteUs) > TIMEOUT_PACOTE) {
         idx = 0;
+    }
+
+    // --- Watchdog: só alimenta se houve comunicação serial recente.
+    // Sem comando por TIMEOUT_RESET_WATCHDOG, o WDT deixa de ser resetado
+    // e o próprio watchdog reinicia o equipamento em até WDT_TIMEOUT.
+    if ((millis() - ultimaComunicacao) < TIMEOUT_RESET_WATCHDOG) {
+        wdt_reset();
     }
 
     // --- Calibração em andamento: não faz nada no loop ---
